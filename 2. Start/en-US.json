@@ -1,0 +1,39 @@
+{
+  "interactionModel": {
+      "languageModel": {
+          "invocationName": "crypto price tracker",
+          "intents": [
+              {
+                  "name": "AMAZON.FallbackIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.NavigateHomeIntent",
+                  "samples": []
+              },
+              {
+                  "name": "CoinPriceIntent",
+                  "slots": [],
+                  "samples": [
+                      "tell me the price of bitcoin",
+                      "price of bitcoin",
+                      "what is the price of bitcoin"
+                  ]
+              }
+          ],
+          "types": []
+      }
+  }
+}

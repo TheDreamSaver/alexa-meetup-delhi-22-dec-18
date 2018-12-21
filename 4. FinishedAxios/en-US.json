@@ -1,0 +1,80 @@
+{
+  "interactionModel": {
+      "languageModel": {
+          "invocationName": "crypto price tracker",
+          "intents": [
+              {
+                  "name": "AMAZON.FallbackIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.NavigateHomeIntent",
+                  "samples": []
+              },
+              {
+                  "name": "CoinPriceIntent",
+                  "slots": [
+                      {
+                          "name": "coin",
+                          "type": "coinType"
+                      }
+                  ],
+                  "samples": [
+                      "tell me the price of {coin}",
+                      "price of {coin}",
+                      "what is the price of {coin}"
+                  ]
+              }
+          ],
+          "types": [
+              {
+                  "name": "coinType",
+                  "values": [
+                      {
+                          "name": {
+                              "value": "dogecoin"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "litecoin"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "tron"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "monero"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "ethereum"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "bitcoin"
+                          }
+                      }
+                  ]
+              }
+          ]
+      }
+  }
+}
