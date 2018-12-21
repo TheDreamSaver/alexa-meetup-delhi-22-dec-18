@@ -1,5 +1,5 @@
 {
-  "name": "hello-apis",
+  "name": "hello-api",
   "version": "1.0.0",
   "description": "Basic API Call Alexa Skill Template",
   "main": "index.js",
